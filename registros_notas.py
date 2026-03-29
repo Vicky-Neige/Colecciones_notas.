@@ -18,7 +18,7 @@ def mostrar_notas():
              print("La lista esta vacía.")
         else: 
             for e in lista_estudiantes:
-                print(f"Estudiantes: {e['nombre']} | Nota: {e['nota']}")
+                print(f"Estudiante: {e['nombre']} | Nota: {e['nota']}")
         print("-"*50)
 def buscar_estudiante():
         print("-----Buscar Estudiante-----")
